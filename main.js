@@ -92,8 +92,10 @@
 
 const viewBtn = document.querySelector(".view-btn"); // single button
 const hiPro = document.querySelector(".h-pro"); // single hidden card
+const hiPr2o = document.querySelector(".h-pr2o");
 
 viewBtn.addEventListener("click", () => {
     hiPro.classList.remove("hidden");
+    hiPr2o.classList.remove("hidden");
 });
 
